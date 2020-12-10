@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>UCD</title>
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css"/>
+  <script src="assets/vendor/leaflet/leaflet.js"></script>
+  <style>
+    #map{ height: 100% }
+  </style>
+</head>
+<body>
+
+  <div id="map"></div>
+
+  <script>
+
+  var map = L.map('map').setView([53.309344,-6.223571], 15);
+
+  var cs_ucd = L.marker([53.309344,-6.223571]).addTo(map);
+
+  cs_ucd.bindPopup("<b>UCD School of Computer Science</b>").openPopup();
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    minZoom: 1,
+    maxZoom: 20
+  }).addTo(map);
+
+  </script>
+</body>
+</html>

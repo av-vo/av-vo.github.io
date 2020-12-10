@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <sitemap>
+      <loc>http://www.av-vo.com/index.html</loc>
+      <lastmod>2018-12-29</lastmod>
+   </sitemap>
+
+   <sitemap>
+      <loc>http://www.av-vo.com/posts/index.html</loc>
+      <lastmod>2018-12-29</lastmod>
+   </sitemap>
+
+   <sitemap>
+      <loc>http://www.av-vo.com/research/index.html</loc>
+      <lastmod>2018-12-29</lastmod>
+   </sitemap>
+
+   <sitemap>
+      <loc>http://www.av-vo.com/models/index.html</loc>
+      <lastmod>2018-12-29</lastmod>
+   </sitemap>
+
+   <sitemap>
+      <loc>http://www.av-vo.com/photo-albums/index.html</loc>
+      <lastmod>2018-12-29</lastmod>
+   </sitemap>
+
+</sitemapindex>

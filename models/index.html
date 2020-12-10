@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131484152-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131484152-1');
+  </script>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    3D models
+    
+  </title>
+
+  <link rel="shortcut icon" href="/img/vvo.png">
+
+  <meta name="description" content="Anh Vu Vo&#39;s personal website">
+
+  <!-- Custom fonts for this template -->
+  <!--link href="/assets/vendor/fontawesome-free/css/all.min.css" rel='stylesheet' type='text/css'-->
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+
+  <!--link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/fontawesome.min.css"-->
+
+  <link rel="stylesheet" href="/assets/main.css">
+
+  <link rel="canonical" href="http://localhost:4000/models/">
+
+  <link rel="alternate" type="application/rss+xml" title="Anh Vu Vo" href="/feed.xml">
+
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Anh Vu Vo</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <!--li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li-->
+        <!--li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li-->
+        <!--li class="nav-item">
+          <a class="nav-link" href="/posts">Blog</a>
+        </li-->
+        <li class="nav-item">
+          <a class="nav-link" href="/research">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/models">3D Models</a>
+        </li>
+        <!--li class="nav-item">
+          <a class="nav-link" href="/hikes">Hikes</a>
+        </li-->
+        <!--li class="nav-item">
+          <a class="nav-link" href="/photo-albums">Photos</a>
+        </li-->
+        <!--li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li-->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/bg-3d-models.png')">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>3D models</h1>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-11 col-md-11 col-sm-12 col-xs-12 mx-auto">
+
+      
+
+		<h2>Urban solar potential models</h2>
+		<p>The two 3D models show the total daily solar irradiation simulated for a Summer day in Dublin. Total daily solar irradiation is the total amount of solar energy accumulated over the course of a day on a terrestrial surface. Dark brown represents shaded areas while bright yellow represents a high level of solar exposure. This simulation was performed for an area of 2 km<sup>2</sup> of Dublin city in Ireland using a <a href="https://doi.org/10.17609/n8mq0n">high-resolution, aerial LiDAR dataset</a> collected by my research group at UCD. The two point clouds presented here are two small segments extracted from the large simulation. As the simulation involves a large amount of data (i.e. thousands of computations on billions of data points), a Big Data analytics solution was used. A paper reporting full details of the simulation is currently under review for publication.</p>
+
+		<div><div class="row">
+	<div class="col-md">
+		<h4>Christ Church Cathedral</h4>
+
+		<p><a href="https://christchurchcathedral.ie">Christ Church</a> is an important medieval architecture in Dublin city center. This 3D model shows how amazing airborne LiDAR is in capturing the architectural details from 300m above the ground. Looking at the roof of the church, you will see the roof surface facing South receives to more sunlight than the one facing North. This is the typical pattern for any place in the Northern hemisphere.</p>
+
+
+		<div>
+			<button id="christ-church" type="button" class="btn btn-primary">Load Christ Church model</button>
+		</div>
+
+		<br>
+		<!--iframe frameBorder="0" scrolling="no"  src="https://serv.cusp.nyu.edu/projects/ALSDublin15/html/dem.html" width="100%" height="425">></iframe-->
+
+	</div>
+
+	<div class="col-md">
+		<h4>Trinity College Dublin</h4>
+
+		<p>This is the front entrance to the historic campus of Trinity College Dublin. Across the street is the Parliament House building, which used to be home to the Parliament of Ireland. The building now belongs to the Bank of Ireland. As the simulation takes full advantage of the geometrical details captured by LiDAR, the simulated solar potential result look highly detailed and realistic. </p>
+
+		<div>
+			<button id="tcd" type="button" class="btn btn-primary">Load TCD model</button>
+		</div>
+
+		<br>
+		<!--iframe frameBorder="0" scrolling="no"  src="https://serv.cusp.nyu.edu/projects/ALSDublin15/html/voxel.html" width="100%" height="425">></iframe-->
+	</div>
+</div>
+
+<!--div class="row">
+	<div class="col-sm">
+		<button id="christ-church" type="button" class="btn btn-primary">Load Christ Church model</button>
+	</div>
+
+	<div class="col-sm">
+		<button id="tcd" type="button" class="btn btn-primary">Load TCD model</button>
+	</div>
+</div-->
+
+
+
+<!--button id="dem">Button</button-->
+
+<div id="solar-model-holder"></div>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+	    $('#christ-church').click(function(){ 
+	        if(!$('#iframe').length) {
+	                $('#solar-model-holder').html('<iframe width="100%" height="500px" src="https://sketchfab.com/models/b5f6bcce8ebc44a3b4bbb6b0fef067b3/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>');
+	        }
+	    });
+
+
+
+	    $('#tcd').click(function(){ 
+	        if(!$('#iframe').length) {
+	                $('#solar-model-holder').html('<iframe width="100%" height="500px" src="https://sketchfab.com/models/89850663e56f45cca92b5693e395de9e/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>');
+	        }
+	    });
+	});
+
+
+
+</script>
+ </div>
+
+		<hr>
+
+
+		<h2>High-resolution Digital Elevation Model (DEM) and Voxel Model</h2>
+		<p>Sample DEM and Voxel models generated using the <a href="https://doi.org/doi:10.17609/N8MQ0N">2015 Dublin LiDAR</a> dataset. This is the <a href="https://en.wikipedia.org/wiki/Graduates_Memorial_Building">Graduates Memorial Building</a>, a neo-Gothic Victorian architecture on the Trinity College Dublin campus.</p>
+
+		<div><div class="row">
+	<div class="col-md">
+		<h4>Digital Elevation Model</h4>
+
+		<p>This model was generated by mapping the 3D laser points onto a 2D raster grid and computing an elevation value for each raster cell. The elevation value of a raster cell is the maximum elevation of the laser points mapped to the cell. The height values of empty raster cells (i.e. cells having no laser point) are interpolated from nearby cells. This model is 2.5D, meaning some 3D features in the original point cloud are lost during the mapping.</p>
+
+		<div>
+			<button id="dem" type="button" class="btn btn-primary">Load DEM</button>
+		</div>
+
+		<br>
+		<!--iframe frameBorder="0" scrolling="no"  src="https://serv.cusp.nyu.edu/projects/ALSDublin15/html/dem.html" width="100%" height="425">></iframe-->
+
+	</div>
+
+	<div class="col-md">
+		<h4>Voxel model</h4>
+
+		<p>A voxel (i.e. volumetric pixel) is essentially a cube in a 3D space. A voxel model, composing of a set of voxels regularly distributed on a raster grid structure, is a 3D raster representation of the geometrical data. Voxel models are created from point clouds by mapping the 3D points onto a 3D raster grid. A voxel is added to the model wherever the corresponding raster cell contains a laser point. Unlike 2.5D DEMs, voxel models are truly 3D.</p>
+
+		<div>
+			<button id="voxel" type="button" class="btn btn-primary">Load Voxel</button>
+		</div>
+
+		<br>
+		<!--iframe frameBorder="0" scrolling="no"  src="https://serv.cusp.nyu.edu/projects/ALSDublin15/html/voxel.html" width="100%" height="425">></iframe-->
+	</div>
+</div>
+
+<!--div class="row">
+	<div class="col-sm">
+		<button id="dem" type="button" class="btn btn-primary">Load DEM</button>
+	</div>
+
+	<div class="col-sm">
+		<button id="voxel" type="button" class="btn btn-primary">Load Voxel</button>
+	</div>
+</div-->
+
+<br>
+<!--div class="alert alert-warning">
+  <strong>Warning!</strong> Loading the models requires a significant amount of memory.
+</div-->
+
+
+<br>
+
+<!--iframe for holding the model-->
+<div id="dem-voxel-model-holder"></div>
+
+<!--scripts-->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+
+<!--script type="text/javascript">
+	$(function(){
+	    $('#dem').click(function(){ 
+	        if(!$('#iframe').length) {
+	                $('#dem-voxel-model-holder').html('<iframe frameBorder="0" scrolling="no"  src="https://serv.cusp.nyu.edu/projects/ALSDublin15/html/dem.html" width="100%" height="425">></iframe>');
+	        }
+	    });
+
+	    $('#voxel').click(function(){ 
+	        if(!$('#iframe').length) {
+	                $('#dem-voxel-model-holder').html('<iframe frameBorder="0" scrolling="no"  src="https://serv.cusp.nyu.edu/projects/ALSDublin15/html/voxel.html" width="100%" height="425">></iframe>');
+	        }
+	    });
+	});
+</script-->
+<script type="text/javascript">
+	$(function(){
+	    $('#dem').click(function(){ 
+	        if(!$('#iframe').length) {
+	                $('#dem-voxel-model-holder').html('<iframe frameBorder="0" scrolling="no"  src="https://sketchfab.com/models/00a2c019c1e243d1a6dbcbb56cd3d624/embed" width="100%" height="500px">></iframe>');
+	        }
+	    });
+
+	    $('#voxel').click(function(){ 
+	        if(!$('#iframe').length) {
+	                $('#dem-voxel-model-holder').html('<iframe frameBorder="0" scrolling="no"  src="https://sketchfab.com/models/073c5c3c03d146e19b1652a3b7980895/embed" width="100%" height="500px">></iframe>');
+	        }
+	    });
+	});
+</script> </div>
+
+		<hr>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <!--li class="list-inline-item">
+            <a href="https://www.researchgate.net/profile/Anh_Vu_Vo">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-researchgate fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li-->
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/anh-vu-vo-13435117">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/av-vo">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Content copyright &copy; Anh Vu Vo 2020<br>Theme based on <a href=https://startbootstrap.com/theme/clean-blog-jekyll>Clean Blog</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>
